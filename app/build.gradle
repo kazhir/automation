@@ -43,13 +43,6 @@ dependencies {
     testImplementation group: 'ru.yandex.qatools.allure', name: 'allure-junit-adaptor', version: '1.5.4'
 }
 
-allure {
-    version = '2.2.1'
-    autoconfigure = true
-    aspectjweaver = true
-    allureJavaVersion = '2.17.3'
-}
-
 application {
     // Define the main class for the application.
     mainClass = 'gradle.App'
