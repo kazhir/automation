@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="automation.WindowsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-02-17T05:56:28" hostname="MacBook-Air.local" time="37.698">
+  <properties/>
+  <testcase name="ユーザ名入力チェック[testNo.0]" classname="automation.WindowsTest" time="11.031"/>
+  <testcase name="ユーザ名入力チェック[testNo.1]" classname="automation.WindowsTest" time="10.037"/>
+  <testcase name="ユーザ名入力チェック[testNo.2]" classname="automation.WindowsTest" time="8.511"/>
+  <testcase name="ユーザ名入力チェック[testNo.3]" classname="automation.WindowsTest" time="8.118"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 98.0.4758.102 (resolved driver for Chrome 98)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/kazhir/.cache/selenium/chromedriver/mac-arm64/98.0.4758.102/chromedriver
+Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 7781
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2月 17, 2022 2:56:30 午後 org.openqa.selenium.remote.ProtocolHandshake createSession
+情報: Detected dialect: W3C
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 98.0.4758.102 (resolved driver for Chrome 98)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/kazhir/.cache/selenium/chromedriver/mac-arm64/98.0.4758.102/chromedriver
+Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 13368
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2月 17, 2022 2:56:42 午後 org.openqa.selenium.remote.ProtocolHandshake createSession
+情報: Detected dialect: W3C
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 98.0.4758.102 (resolved driver for Chrome 98)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/kazhir/.cache/selenium/chromedriver/mac-arm64/98.0.4758.102/chromedriver
+Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 18498
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2月 17, 2022 2:56:50 午後 org.openqa.selenium.remote.ProtocolHandshake createSession
+情報: Detected dialect: W3C
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 98.0.4758.102 (resolved driver for Chrome 98)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/kazhir/.cache/selenium/chromedriver/mac-arm64/98.0.4758.102/chromedriver
+Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 24261
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+2月 17, 2022 2:56:58 午後 org.openqa.selenium.remote.ProtocolHandshake createSession
+情報: Detected dialect: W3C
+]]></system-err>
+</testsuite>
