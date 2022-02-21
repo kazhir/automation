@@ -49,7 +49,7 @@ public class LoginTest {
     @Before
     public void setUp() throws MalformedURLException  {
         switch(browser){
-            case "Edge":
+            case "edge":
                 WebDriverManager.edgedriver().setup();
                 driver = new EdgeDriver();
                 break;
@@ -62,7 +62,7 @@ public class LoginTest {
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
                 break;
-            case "Chrome":
+            case "chrome":
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
                 break;
