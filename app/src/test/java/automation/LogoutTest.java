@@ -43,7 +43,7 @@ public class LogoutTest {
     private String inputName;
     private String checkName;
     private String testNo;
-    private String browser = System.getenv("browser");
+    private String browser = "safari"; //System.getenv("browser");
     private DesiredCapabilities capabilities = new DesiredCapabilities();
 
     @Before
