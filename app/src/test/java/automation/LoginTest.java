@@ -113,7 +113,7 @@ public class LoginTest {
         String actual = driver.findElement(By.id("guestname")).getAttribute("value");
         String expected = checkName;
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-        String path = "target/screenshot/" + testNo + "_iOS.png";
+        String path = "target/screenshot/" + testNo + "_" + browser + ".png";
         FileUtils.copyFile(scrFile, new File(path));
         assertEquals(expected, actual);
     }
