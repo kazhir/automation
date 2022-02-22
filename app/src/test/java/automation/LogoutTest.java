@@ -96,7 +96,7 @@ public class LogoutTest {
         return Arrays.asList(new Object[][] {
             {"TestNo1", "サンプルユーザ", "サンプルユーザ"},
             {"TestNo2", "サンプルユーザA","サンプルユーザA"},
-            {"TestNo3", "サンプルユーザB", "サンプルユーザB"},
+            {"TestNo3", "サンプルユーザ", "サンプルユーザB"},
             {"TestNo4", "サンプルユーザC", "サンプルユーザC"}
         });
     }
