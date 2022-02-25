@@ -109,7 +109,7 @@ public class LoginTest {
     @Test
     public void ユーザ名入力チェック() throws IOException, InterruptedException {
         driver.findElement(By.id("guestname")).sendKeys(inputName);
-        Thread.sleep(5000); // 10秒(1万ミリ秒)間だけ処理を止める
+        Thread.sleep(3000);
         String actual = driver.findElement(By.id("guestname")).getAttribute("value");
         String expected = checkName;
         File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
