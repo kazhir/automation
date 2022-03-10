@@ -67,7 +67,7 @@ public class LoginTest {
                 driver = new ChromeDriver();
                 break;
             case "safari":
-                WebDriverManager.safaridriver().setup();
+                //WebDriverManager.safaridriver().setup();
                 driver = new SafariDriver();
                 break;
             case "ios_safari":           
